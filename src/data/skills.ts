@@ -7,9 +7,8 @@ export const skillsData: SkillCategory[] = [
     skills: [
       { name: 'JavaScript (ES6+)' },
       { name: 'TypeScript' },
-      { name: 'C / C++' },
-      { name: 'Java' },
       { name: 'Python' },
+     
     ],
   },
   {
@@ -24,6 +23,20 @@ export const skillsData: SkillCategory[] = [
       { name: 'Vite' },
     ],
   },
+
+    {
+    category: 'Backend & Web Development',
+    description: '',
+    skills: [
+      { name: 'MongoDB' },
+      { name: 'CRUD Operations' },
+      { name: 'Atuhentication & Authorization ' },
+      { name: 'Tailwind CSS' },
+      { name: 'REST API Development' },
+  
+    ],
+  },
+
   {
     category: 'Computer Science Core',
     description: 'Foundational engineering disciplines from BSc in Computer Science & Engineering.',
@@ -46,4 +59,16 @@ export const skillsData: SkillCategory[] = [
       { name: 'REST APIs' },
     ],
   },
+
+  {
+  category: 'AI-Powered Development Tools',
+  description: 'AI coding assistants and development environments for writing, debugging, refactoring, and improving code efficiently.',
+  skills: [
+    { name: 'Claude Code' },
+    { name: 'Cursor' },
+    { name: 'Antigravity' },
+    { name: 'OpenCode' },
+    { name: 'Codex' },
+  ],
+},
 ];
